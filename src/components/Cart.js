@@ -1,9 +1,10 @@
+import '../styles/Cart.css'
 function Cart() {
     const bierePrice = 5
     const rhumPrice = 50
     const vokdaPrice = 60
     return (
-        <div>
+        <div className='lmj-cart'>
             <h2>Panier</h2>
             <ul>
                 <li>Biere : {bierePrice} e</li>
